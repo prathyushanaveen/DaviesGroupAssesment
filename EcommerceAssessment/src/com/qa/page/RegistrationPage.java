@@ -52,7 +52,7 @@ public class RegistrationPage {
 	}
 
 	public boolean validateRegistrationPage(String title, WebDriver driver) {
-		Email.sendKeys("hello@gmail.comgh");
+		Email.sendKeys("test123@gmail.com");
 		btnCreateAcnt.click();
 		String CurrentTitle= driver.getTitle();
 		if(CurrentTitle.equals(title))

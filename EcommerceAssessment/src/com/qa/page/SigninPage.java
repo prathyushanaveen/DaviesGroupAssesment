@@ -27,8 +27,8 @@ public class SigninPage {
 	
 	public boolean SigninPageTitleValidation(String title, WebDriver driver) {
 		
-		mailID.sendKeys("mprathyusha482@gmail.com");
-		password.sendKeys("Pineapple@1");
+		mailID.sendKeys("test123@gmail.com");
+		password.sendKeys("test@123");
 		signinBtn.click();
 		String CurrentTitle= driver.getCurrentUrl();
 		if(CurrentTitle.equals(title))
